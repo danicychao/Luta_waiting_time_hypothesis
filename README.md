@@ -37,7 +37,15 @@ Fitting result:
 
 - With the same examples, the 95% Bayesian credible region of (average) waiting time is between 116 and 297 seconds, which is narrower than the 95% frequentist confidence interval ([75.60, 306.55]). This reflects that the choice of prior, gamma distribution with parameters pre-decided by the 24 observed waiting times, is not only informative but also aligned with the observed data.
 
-<img src="figures/prior_posterior.png" style="width:425px;"> <img src="figures/waiting_time_update.png" style="width:425px;">
+Posterior and prior:
+<p align="center">
+<img src="figures/prior_posterior.png" style="width:425px;">
+</p>
+
+Bayesian estimated waiting time distribution:
+<p align="center">
+<img src="figures/waiting_time_update.png" style="width:425px;">
+</p>
 
 - One can further update the prior belief with the posterior of their observed waiting times by uncommenting the code snippet in the end.  
 
